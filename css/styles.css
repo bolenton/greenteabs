@@ -1,1 +1,48 @@
-d
+
+/* GLOBAL STYLES */
+.primary-color{
+    background-color: #00713D;
+}
+
+.secondary-color{
+    background-color: #45AA42;
+}
+
+.tertiary-color{
+    background-color: #028046;
+}
+
+/* unvisited link */
+a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: red;
+}
+
+/* selected link */
+a:active {
+    color: yellow;
+}
+/* GLOBAL STYLES END */
+
+/*Header & Navbar*/
+.navbar{
+    margin-bottom: 0;
+    border-bottom: 0;
+}
+
+.navbar-brand{
+    padding-top: 0;
+}
+
+.test{
+    color: white;
+}

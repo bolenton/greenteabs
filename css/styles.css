@@ -1,33 +1,46 @@
 
 /* GLOBAL STYLES */
-.primary-color{
+body{
+    background-color: #F7F7F7
+}
+
+.primary-background{
     background-color: #00713D;
 }
 
-.secondary-color{
+.secondary-background{
     background-color: #45AA42;
 }
 
-.tertiary-color{
+.tertiary-background{
     background-color: #028046;
 }
 
-/* unvisited link */
+.primary-color{
+    color: #00713D;
+}
+
+.secondary-color{
+    color: #45AA42;
+}
+
+.tertiary-color{
+    color: #028046;
+}
+
+/* global link behaviors */
 a:link {
     color: white;
 }
 
-/* visited link */
 a:visited {
     color: green;
 }
 
-/* mouse over link */
 a:hover {
     color: red;
 }
 
-/* selected link */
 a:active {
     color: yellow;
 }
@@ -43,6 +56,62 @@ a:active {
     padding-top: 0;
 }
 
-.test{
-    color: white;
+.container{
+    width: 1170px;
+    max-width: 1140px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
 }
+
+.jumbotron{
+    border-radius: 0px!important;
+}
+/* Header & Navbar End */
+
+/*Main page content*/
+.pads{
+    margin-top: 25px;
+    font-family: 'Open Sans Light';
+    font-size: 18px;
+    background-color: white;  
+    border: none;
+    border-bottom: 4px solid #ddd;
+    
+}
+
+.small-pads{
+    border: none;
+    border-bottom: 4px solid #ddd;    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

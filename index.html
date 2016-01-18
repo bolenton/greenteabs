@@ -17,15 +17,14 @@
 
 <body>
     <!-- HEADER WITH NAV -->
-
-    <header id="header">
-        <nav class="navbar navbar-default navbar-static-top primary-background">
+        <header id="header">
+        <nav class="navbar navbar-default navbar-static-top primary-background hidden-xs nav1">
             <div class="container">
                 <div class="navbar-brand">
-                    <a href="#"><img src="/assets/images/logo2.png"></a>
+                    <a href="#"><img src="/assets/images/logo2.png" class="img-responsive"></a>
                 </div>
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a class="test" href="#">Contact Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
                     <li class="divider-vertical"></li>
                     <li><a href="#"><i class="fa fa-youtube-play"></i></a></li>
                     <li><a href="#"><i class="fa fa-twitter"></i></a></li>
@@ -34,18 +33,19 @@
                     <li><a href="#"><i class="fa fa-shopping-cart"></i> Cart</a></li>
                     <li class="divider-vertical"></li>
                     <li class="dropdown">
-                        <a href="#">My Account</a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">My Account <b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                            <li>Sign In</li>
-                            <li>Your Account</li>
+                                <li><div class="account-dropdown"><a href="#" class="btn btn-success btn-block">Sign In</a></div></li>
+                                <li class="divider"></li>
+                            <li><a href="#">Your Account</a></li>
                         </ul>
                     </li>
                 </ul>
             </div>
         </nav>
 
-        <nav class="navbar navbar-default navbar-static-top secondary-background">
-            <div class="container">
+        <nav class="navbar navbar-default navbar-sub navbar-static-top secondary-background">
+            <div class="container nav2">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse">
                         <span class="sr-only">Toggle navigation</span>
@@ -64,13 +64,16 @@
                                 <li><a href="#">View All Health Benefits</a></li>
                                 <li><a href="#">Why Drink Green Tea?</a></li>
                                 <li><a href="#">GreenTeaHP University</a></li>
+                                
+                                
                                 <li><a href="#">Seven Day Challenge</a></li>
                                 <li><a href="#">Fast Facts</a></li>
                                 <li><a href="#">FAQ's</a></li>
                             </ul>
                         </li>
                         <li class="dropdown">
-                            <a href="#">Join </a>
+                            <a href="/www/enrollment">Join</a>
+                            
                         </li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Mall Locations</a>
@@ -98,20 +101,20 @@
     <main>
         <section>
             <div class="container">
-            <div class="jumbotron bg">
-                <h1 class="primary-color">Change The Way</h1>
-                <h2 class="secondary-color">You Look, feel, and age.</h1>
-                <p class="top-pad-text"> Increase energy, look refreshed and feel rejuvinated in just seven days.</p>
-                <p><a class="btn btn-success btn-lg lg-btn-text" href="#" role="button">Take the 7-day challenge<i class="fa fa-chevron-right"></i></a></p>
-            </div>
-           
+                <div class="jumbotron bg">
+                    <h1 class="primary-color">Change The Way</h1>
+                    <h2 class="secondary-color">You Look, feel, and age.</h1>
+                    <p class="top-pad-text"> Increase energy, look refreshed and feel rejuvinated in just seven days.</p>
+                    <p><a class="btn btn-success btn-lg lg-btn-text" href="#" role="button">Take the 7-day challenge <i class="fa fa-chevron-right"></i></a></p>
+                </div>
 
-                <div id="three-div" class="row">
+
+                <div class="row">
                     <div class="col-sm-4">
                         <div class="well pads">
                             <div class="space-10"></div>
                             <img src="assets/images/flavors.png" class="img-responsive">
-                            <a href="/products" class="btn btn-block btn-success">Shop Now <i class="fa fa-chevron-right"></i></a>
+                            <a href="#" class="mini-banner btn btn-block btn-success">Shop Now <i class="fa fa-chevron-right"></i></a>
                         </div>
                     </div>
 
@@ -119,7 +122,7 @@
                         <div class="well pads">
                             <div class="space-10"></div>
                             <img src="assets/images/health.png" class="img-responsive">
-                            <a href="/www/science/benefitsone" class="btn btn-block btn-success">Learn More <i class="fa fa-chevron-right"></i></a>
+                            <a href="#" class="mini-banner btn btn-block btn-success">Learn More <i class="fa fa-chevron-right"></i></a>
                         </div>
                     </div>
 
@@ -127,88 +130,107 @@
                         <div class="well pads">
                             <div class="space-10"></div>
                             <img src="assets/images/visit.png" class="img-responsive">
-                            <a href="#" class="btn btn-block btn-success">Visit Us <i class="fa fa-chevron-right"></i></a>
+                            <a href="#" class="mini-banner btn btn-block btn-success">Visit Us <i class="fa fa-chevron-right"></i></a>
                         </div>
                     </div>
                 </div>
 
-                <div class="row pads">
-                    <div class="col-md-9">
-                        <h1 class="text-style-sec">Green tea</h1>
-                        <h2 class="text-style-pri">The one. the only. Green Tea HP™</h2>
-                        <h4>A LOVE STORYs</h4>
-                        <p>
-                            Formulated with a proprietary blend of pure and highly concentrated EGCG*-rich green tea extract, key nutrients, trace minerals,
-                            and an anti-aging antioxidant blend, Green Tea HP™ is simply the most effective and sustainable
-                            way to change the way you look and feel, today--and tomorrow. But the number of superior ingredients,
-                            fabulous flavors, calories (but who's counting?), and immediate and cumulative benefits (way
-                            more than we can fit on our homepage, so explore our site!) only tell half the story.
-                        </p>
-                        <a href="#">
-                            <button class="btn btn-lg btn-success">Learn More</button>
-                    </div>
-                    <div class="col-md-3">
-                        <img id="arrow" src="assets/images/field.png" />
-                    </div>
+                <div class="bg2 row">
+                    <div class="col-sm-9">
+                        <h1 class="secondary-color">Green tea</h1>
+                        <h2 class="primary-color">The one. the only. Green Tea HP™</h2>
+                    <h4>A LOVE STORYs</h4>
+                    <p>
+                        Formulated with a proprietary blend of pure and highly concentrated EGCG*-rich green tea extract, key nutrients, trace minerals,
+                        and an anti-aging antioxidant blend, Green Tea HP™ is simply the most effective and sustainable way
+                        to change the way you look and feel, today--and tomorrow. But the number of superior ingredients,
+                        fabulous flavors, calories (but who's counting?), and immediate and cumulative benefits (way more
+                        than we can fit on our homepage, so explore our site!) only tell half the story.
+                    </p>
+
+                    <button class="btn btn-success btn-lg" href="#" role="button">Learn More <i class="fa fa-chevron-right"></i></button>
+
                 </div>
+                <div class="col-sm-3">
+                    <img class="feild-img" src="assets/images/field.png" />
+                </div>
+            </div>
+
             </div>
         </section>
     </main>
 
     <div id="main-footer">
         <div id="first-footer" class="tertiary-background">
-            <div id="company-menu">
-                <h3>Company</h3>
-                <ul>
-                    <a href="">
-                        <li>About GRENX</a>
-                    </li>
-                    </a>
-                    <a href="">
-                        <li>About Green Tea HP™</li>
-                    </a>
-                    <a href="">
-                        <li><img src="assets/images/bottom-social.PNG" /></li>
-                    </a>
-                </ul>
-            </div>
-            <div id="customer-menu">
-                <h3>Customer Support</h3>
-                <ul>
-                    <a href="">
-                        <li>Contact US</li>
-                    </a>
-                    <a href="">
-                        <li>FAQ's</li>
-                    </a>
-                </ul>
-            </div>
-            <div id="reseller-menu">
-                <h3>Become </h3>
-                <ul>
-                    <a href="">
-                        <li>Become an Affiliate</li>
-                    </a>
-                </ul>
-            </div>
-            <div id="million-menu">
-                <h3>1 MILLION STORIES</h3>
-                <ul>
-                    <a href="">
-                        <li>Share Your Story</li>
-                    </a>
-                </ul>
-            </div>
-            <div id="about-menu">
-                <h3>ABOUT ME</h3>
-                <img src="assets/images/contact.PNG" />
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-2 company-menu">
+                        <h5>Company</h5>
+                        <ul>
+                            <a href="">
+                                <li>About GRENX</a>
+                            </li>
+                            </a>
+                            <a href="">
+                                <li>About Green Tea HP™</li>
+                            </a>
+                            <a href="">
+                                <li><img src="assets/images/bottom-social.PNG" /></li>
+                            </a>
+                        </ul>
+                    </div>
+                    <div class="col-sm-2 customer-menu">
+                        <h5>Customer Support</h5>
+                        <ul>
+                            <a href="">
+                                <li>Contact US</li>
+                            </a>
+                            <a href="">
+                                <li>FAQ's</li>
+                            </a>
+                        </ul>
+                    </div>
+                    <div class="col-sm-2 reseller-menu">
+                        <h5>Become A Reseller</h5>
+                        <ul>
+                            <a href="">
+                                <li>Become an Affiliate</li>
+                            </a>
+                        </ul>
+                    </div>
+                    <div class="col-sm-2 million-menu">
+                        <h5>1 MILLION STORIES</h5>
+                        <ul>
+                            <a href="">
+                                <li>Share Your Story</li>
+                            </a>
+                        </ul>
+                    </div>
+                    <div class="col-sm-2 about-menu">
+                        <h5>ABOUT ME</h5>
+                        <img src="assets/images/contact.PNG" />
+                    </div>
+                </div>
+
             </div>
         </div>
 
-        <div class="second-footer primary-background">
-            <a href=""><img src="assets/images/visa.PNG" /></a>
-            <p id="bot-para1"><b>Official Site of:</b> grenx Account <b>Phone:</b> 8665235984</p>
-            <p id="bot-para2">©2016 GRENX, All Rights Reserved | <a href="">Privacy Policy</a> | <a href="">Contact Us</a> | Ads disabled </p>
+        <div id="second-footer" class="primary-background">
+            <div class="container">
+
+                <a href=""><img src="assets/images/visa.PNG" /></a>
+                <div>
+                    <p class="bot-para1">
+                        <b>Official Site of:</b> grenx Account <b>Phone:</b> 8665235984
+                    </p>
+                    <p class="bot-para2">
+                        ©2016 GRENX, All Rights Reserved | <a href="">Privacy Policy</a> | <a href="">Contact Us</a> | Ads
+                        disabled
+                    </p>
+                </div>
+
+            </div>
         </div>
     </div>
     <!-- Bootstrap core JavaScript

@@ -5,6 +5,7 @@ body{
     font-size: 14px;
     margin: 0;
     font-family: 'Open Sans', Arial, sans-serif;
+    overflow-x: hidden;
 }
 
 .primary-background{
@@ -273,4 +274,100 @@ dropdown-menu .sub-menu {
 }
 
 /* First footer */
+
+#main-footer, li, a, a:visited{
+    color: #FFF;
+    list-style: none;
+}
+
+#main-footer h5{
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin-top: 9px;
+    padding-bottom: 8px;
+}
+
+#first-footer{
+    height: 181px;
+    margin-top: 20px;
+    padding-top: 25px;
+}
+
+#first-footer ul{
+    padding-left: 0;
+}
+
+/* First footer ends*/
+.company-menu{
+    margin-right: 33px;
+}
+
+.company-menu img{
+    position: absolute;
+    margin-left: -11px;
+    margin-top: 1px;
+}
+
+.customer-menu{
+    margin-right: 25px;
+}
+
+.reseller-menu{
+    margin-left: 8px;
+}
+
+.million-menu{
+    margin-left: 33px;
+    margin-right: 33px
+}
+
+.about-menu img{
+    position: absolute;
+    margin-left: -6px;
+   
+}
+
+.about-menu h5{
+    padding-bottom: 0;
+    margin-bottom: 2px;
+}
+/* First footer ends*/
+
+/* Second footer */
+#second-footer{
+    height: 194px;
+}
+
+#second-footer a img {
+    margin-top: 25px;
+    position: relative;
+    left: 944px;
+}
+
+.bot-para1 {
+    width: 35%;
+    position: relative;
+    left: 403px;
+    top: 26px;
+}
+
+.bot-para2 {
+    width: 50%;
+    position: relative;
+    left: 319px;
+    top: 47px;
+}
+
+/* Second footer ends */
+
+
+
+
+
+
+
+
+
+
+
 

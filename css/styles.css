@@ -1,7 +1,10 @@
 
 /* GLOBAL STYLES */
 body{
-    background-color: #F7F7F7
+    background-color: #F7F7F7;
+    font-size: 14px;
+    margin: 0;
+    font-family: 'Open Sans', Arial, sans-serif;
 }
 
 .primary-background{
@@ -34,7 +37,7 @@ a:link {
 }
 
 a:visited {
-    color: green;
+    color: white;
 }
 
 a:hover {
@@ -44,6 +47,24 @@ a:hover {
 a:active {
     color: yellow;
 }
+
+/* global buttons */
+
+.btn-success {
+    text-transform: uppercase;
+    color: white;
+    background-color: #45AA42;
+    border: none;    
+    height: 35px;
+    text-decoration: none;
+    border-radius: 0px;
+}
+
+.btn-success:hover {
+    background-color: #3A8F37;
+    cursor: pointer;  
+}
+
 /* GLOBAL STYLES END */
 
 /*Header & Navbar*/
@@ -57,29 +78,58 @@ a:active {
 }
 
 
-
-.jumbotron{
-    border-radius: 0px!important;
-}
 /* Header & Navbar End */
 
 /*Main page content*/
+.bg {
+    margin-top: 20px;
+    background: url(../assets/images/banner01.png) 
+    no-repeat center center;
+    height: 390px;
+    width: 100%;
+    background-color: white;
+    
+}
+
+
+.bg .primary-color, .secondary-color{ 
+    font-weight: lighter;
+    font-family: 'Open Sans Light';
+    font-size: 35px;
+    text-transform: uppercase;  
+}
+
+.bg .primary-color{
+      color: #00713D;
+    margin-top: 0;
+}
+
+.bg .secondary-color{
+    color: #45AA42;
+    margin-top: 0;
+}
+
+.bg .top-pad-text{
+    font-weight: lighter;
+    font-family: 'Open Sans Light';
+    color: #5C5C5C;
+    font-size: 20px;
+    margin-top: 0; 
+    margin-bottom: 90px;
+}
+
 .pads{
     margin-top: 25px;
     font-family: 'Open Sans Light';
     font-size: 18px;
     background-color: white;  
     border: none;
-    border-bottom: 4px solid #ddd;
-    
+    border-bottom: 4px solid #ddd;   
 }
 
-.small-pads{
-    border: none;
-    border-bottom: 4px solid #ddd;    
+.lg-btn-text{
+    font-size: 14px;
 }
-
-
 
 
 

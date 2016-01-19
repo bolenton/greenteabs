@@ -146,7 +146,7 @@ dropdown-menu .sub-menu {
      z-index: 1001;
 }
 
-.nav2{
+.nav2-caps{
     text-transform: uppercase;
 }
 
@@ -326,6 +326,10 @@ dropdown-menu .sub-menu {
     margin-top: 1px;
 }
 
+.social-handles i{
+    padding-right: 10px;
+}
+
 .customer-menu{
     margin-right: 25px;
 }
@@ -339,15 +343,24 @@ dropdown-menu .sub-menu {
     margin-right: 33px
 }
 
-.about-menu img{
+.about-menu{
     position: absolute;
-    margin-left: -6px;
-   
+    display: inline-block;
+}
+
+.about-menu i{
+    padding-right: 20px;
+}
+
+.li-text {
+    font-weight: 600;
+    font-size: 15px;
+    
 }
 
 .about-menu h5{
     padding-bottom: 0;
-    margin-bottom: 2px;
+    margin-bottom: 12px;
 }
 /* First footer ends*/
 
@@ -356,11 +369,13 @@ dropdown-menu .sub-menu {
     height: 194px;
 }
 
-#second-footer a img {
+#second-footer .cards {
     margin-top: 25px;
     position: relative;
     left: 944px;
 }
+
+
 
 .bot-para1 {
     width: 35%;

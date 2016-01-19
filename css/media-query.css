@@ -29,6 +29,7 @@
     .bg2{
         position: relative;
         height: auto;
+		padding-bottom: 10px;
     }
     
     .bg2 img {
